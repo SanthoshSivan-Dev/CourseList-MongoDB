@@ -9,8 +9,6 @@ use App\Models\Course;
 use App\Models\Capability;
 use App\Models\Skill;
 
-use MongoDB\BSON\ObjectId;
-
 class CourseController extends Controller
 {
     public function store(Request $request){
